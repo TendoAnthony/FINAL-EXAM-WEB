@@ -1,0 +1,62 @@
+.heading1{
+    color:blue;
+    text-decoration:underline red;
+
+}
+#logo{
+width: 300px;
+height: 300px;
+border-radius: 20px;
+}
+
+.main-div{
+    border: crimson solid 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-div{
+    border: cyan solid 12px;
+    flex-basis: 25%;
+    box-shadow: 5px 5px gray;
+}
+
+.second-div{
+    border: yellowgreen solid 12px;
+    flex-basis: 40%;
+}
+
+.third-div{
+    border: turquoise solid 12px;
+    flex-basis: 25%;
+}
+
+.links{
+    display: flex;
+    list-style-type: none;
+    background-color: green;
+    color: black;
+}
+
+.links li{
+    padding-right: 15px ;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.red-button{
+    background-color: red;
+}
+.grey-button{
+    background-color: grey;
+    margin: 10px;
+}
+
+.box-model{
+    border: indigo solid 3px;
+
+}

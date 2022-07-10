@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <a href="nx.html">personal data</a>
+    <p><center><b><i><h1>UGANDA MARTYRS UNIVERSITY DATA FORM</h1><hr/color="red"</color></i></b></center></p>
+    <form action="result.html" method="POST">
+        <p>Student's Names</p>
+        <div>
+            <label for="name">First Name</label>
+        <input type="text" name="name" id="name">
+    </div><br>
+        <div>
+            <label for ="name"> Last name</label>
+            <input type="text" name="lastname" id="name">
+        </div>
+        <div><br>
+            Gender
+            <div>
+                <label for="Gender">MALE</label>
+                <input type="radio" name="Gender" id="MALE">
+                <label for="Gender">FEMALE</label>
+                <input type="radio" name="Gender" id="FEMALE">
+        </div><br>
+        <div>
+            <label for="email">Email</label>
+            <input type"text" name="email" required>
+        </div><br>
+        <div><label for="date of birth">Data of birth</label>
+            <input type="date" name="doB" required></div>
+        <div<!--dropdown-->
+            <p>Pick the branch of university you are to study at.</p>
+            <select required>
+                <option>NONE</option>
+                <option>MASAKA CAMPUS</option>
+                <option>NKOZI MAIN CAMPUS</option>
+                <option>MBALE CAMPUS</option>
+                <option>MBARARA CAMPUS</option>
+            </select></div><br>
+            <div><p>Why did you choose UGANDA MARTYRS UNIVERSITY?</p>
+                <textarea>Comment</textarea>
+            
+            </div>
+            <div>
+                <label>AGE</label>
+                <input type="number" name="age" id="age" min="19">
+            </div><br>
+            <center<div><button>reset</button>
+                <button>submit</button></div></center>
+        
+        
+    </form>
+</body>
+</html>
