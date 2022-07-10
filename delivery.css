@@ -1,0 +1,39 @@
+body{
+    background-color: mediumspringgreen;
+}
+
+.oe{
+    display: flex;
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+}
+
+.tw{
+    width: 30px;
+    height: 30px;
+}
+
+.tr{
+    width: 30px;
+    height: 30px;
+}
+.fr{
+    width: 30px;
+    height: 30px;
+}
+.cl{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    margin-left: 1100px; 
+    width: 140px; 
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
